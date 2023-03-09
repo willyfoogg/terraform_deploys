@@ -15,7 +15,7 @@ resource "aws_instance" "ec2_instance" {
 
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "eu-west-1"
 }
 
 variable "instance_type" {
@@ -25,12 +25,12 @@ variable "instance_type" {
 
 variable "key_name" {
   type    = string
-  default = "my_key_pair"
+  default = "MYKEYPAIR"
 }
 
 variable "subnet_id" {
   type    = string
-  default = "subnet-1234567890"
+  default = "subnet-0c7ac7f89c870e473"
 }
 
 variable "ami" {
