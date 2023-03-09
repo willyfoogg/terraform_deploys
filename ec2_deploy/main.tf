@@ -35,5 +35,5 @@ variable "subnet_id" {
 
 variable "ami" {
   type    = string
-  default = "ami-006dcf34c09e50022"
+  default = "ami-06d94a781b544c133"
 }
